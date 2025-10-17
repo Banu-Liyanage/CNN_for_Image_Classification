@@ -16,4 +16,4 @@ __pycache__/
 
 # Ignore Jupyter notebook checkpoints (if any)
 .ipynb_checkpoints/
-data/
+data/realwaste-main
