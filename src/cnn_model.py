@@ -29,6 +29,6 @@ class SimpleCNN(nn.Module):
         x = x.view(x.size(0), -1)
         # FC + Dropout + ReLU
         x = self.dropout(F.relu(self.fc1(x)))
-        # Output logits
+        # Output 
         x = self.fc2(x)
         return x

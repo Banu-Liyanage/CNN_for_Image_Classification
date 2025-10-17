@@ -1,0 +1,7 @@
+from cnn_model import SimpleCNN
+import torch
+
+model = SimpleCNN(num_classes=9)
+sample = torch.randn(4, 3, 64, 64)  # 4 RGB images
+output = model(sample)
+print(output.shape)
